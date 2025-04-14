@@ -1,3 +1,8 @@
+
+#Sistema Bancario simples.
+#Regras: Não permitir deposito e nem saques de valores negativos, permitir somente 3 saques diários, ter limite máximo de 500 reais por saque e gerar um relatório de todas as operações no "extrato"
+
+
 menu = """
 
 [0] Depositar
@@ -29,7 +34,6 @@ while True:
             print("Operação falhou! O valor informado é inválido!")
         
         
-
     elif opcao == "1":
         valor = float(input("Informe o valor do saque: "))
 
