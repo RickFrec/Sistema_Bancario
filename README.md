@@ -5,8 +5,10 @@ Projeto realizado para testar e aprimorar conhecimentos sobre Python, Git e GitH
 ## 📖 Regras e Funcionalidades
 - O Sistema bancário permitir apenas depósitos e saques com valores positivos;
 - O sistema permitir somente 3 saques diários;
+- O sistema permitir ao todo somente 10 operações no dia;
 - O valor máximo de cada saque ser 500 reais;
 - O sistema registrar todas as movimentações em "Extrato";
+- Todas as operações em "Extrato" estarem acompanhadas da data e hora;
 - O sistema gerar e atualizar o "Saldo" baseado nas movimentações realizadas.
 
 ## 🧠 Instruções e acompanhamento
